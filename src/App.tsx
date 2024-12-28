@@ -66,7 +66,7 @@ function App() {
           </div>
           <div className='absolute bottom-0'>
            <p className="text-gray-500 text-[10px] font-normal dark:text-gray-400 p-2 fontcss tracking-widest flex items-center gap-2">
-            Powered by <a href='https://calibertech.vercel.app/'><span className='text-gray-100 '>@CaliberTech</span></a>
+            Powered by <a href='https://calibertech.vercel.app/'><span className='font-medium text-black dark:text-gray-100 '>@CaliberTech</span></a>
            </p> 
           </div>
         </main>
