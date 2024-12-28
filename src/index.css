@@ -22,3 +22,6 @@
 .fontcss{
   font-family: 'DM Sans', sans-serif;
 }
+body{
+  overscroll-behavior: none;
+}
