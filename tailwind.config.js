@@ -27,6 +27,7 @@ export default {
       'lg': '1024px',
       'xl': '1280px',
       'max420': { 'max': '420px' },
+      'max500': { 'max': '500px' },
     },
   },
   plugins: [],

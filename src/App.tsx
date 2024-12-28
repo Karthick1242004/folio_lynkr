@@ -23,7 +23,7 @@ function App() {
           <img 
             src={isDark ? Darklogo : Lightlogo} 
             alt="Folio Lynkr" 
-            className='w-logo-sm h-logo-sm sm:w-logo-lg sm:h-logo-lg ml-4 sm:ml-8'
+            className='w-logo-sm h-logo-sm sm:w-logo-lg sm:h-logo-lg ml-10 sm:ml-8'
           />
           <div className="flex items-center gap-2 sm:gap-4">
             <ThemeToggle isDark={isDark} onToggle={() => setIsDark(!isDark)} />
@@ -59,9 +59,8 @@ function App() {
             }`}>
               Folio Lynkr is a dynamic website builder,
               <br className="hidden sm:block" />
-              choose a template , fill out the details
-              <br className="hidden sm:block" />
-              and the site ready and hosted 
+              choose a template , fill out the details and 
+              <br className="hidden sm:block" /> the site is ready and hosted 
             </div>
           </div>
           <div className='absolute bottom-0'>
