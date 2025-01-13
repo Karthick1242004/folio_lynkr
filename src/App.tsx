@@ -10,7 +10,7 @@ import Light from './assets/4.png'
 import { RiMenu2Line } from 'react-icons/ri'
 
 function App() {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
